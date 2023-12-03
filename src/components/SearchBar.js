@@ -31,6 +31,7 @@ const SearchBar = () => {
         type="text"
         className='searchBox'
         value={searchTerm}
+        placeholder='Enter...'
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={handleSearch} className='searchButton'>Search</button>

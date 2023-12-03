@@ -10,7 +10,7 @@ const WordDetails = () => {
     <div className="App">
   
       {wordDetails && wordDetails.length > 0 ? (
-        <div  >
+        <div  className='App'>
           {/* Rendering word details */}
           {wordDetails.map((entry, index) => (
             <div key={index}>
